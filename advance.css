@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap");
+:root {
+  --font:"Comic Neue", cursive;
+  --color: rgba(32,33,36,1);
+  --color1: #171717;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font);
+  font-weight: 100;
+  font-size: large;
+  color: white;
+}
+
+body {
+  background-color: var(--color);
+  display: flex;
+  min-height: 100vh;
+  flex-flow: column;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav {
+  display: grid;
+  grid-template-columns: 130px auto;
+  padding: 17px;
+  white-space: nowrap;
+}
+.nav .home a {
+  font-size: 25px;
+}
+.nav .account {
+  text-align: right;
+  padding-top: 5px;
+}
+.nav .account .googleAcc {
+  margin: 8px;
+  background-color: blue;
+  padding: 2px 5px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.title {
+  color: red;
+  font-size: 27px;
+  padding: 20px 40px;
+  border-bottom: white solid 1px;
+}
+
+.form {
+  padding-top: 45px;
+}
+.form .container1 {
+  display: grid;
+  grid-template-columns: 182px 573px auto;
+  margin-left: 45px;
+  margin-right: 180px;
+  border-bottom: white solid 1px;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+.form .container1 .col1 {
+  display: flex;
+  flex-flow: column;
+}
+.form .container1 .col1 h2 {
+  font-size: 17px;
+  margin-bottom: 26px;
+}
+.form .container1 .col1 i {
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+.form .container1 .col2 {
+  display: flex;
+  flex-flow: column;
+  padding-top: 40px;
+  width: 573px;
+}
+.form .container1 .col2 input {
+  height: 25px;
+  margin-bottom: 13px;
+  background-color: var(--color);
+  border: white solid 1px;
+}
+.form .container1 .col2 .oj {
+  display: flex;
+}
+.form .container1 .col2 .oj i {
+  margin: 10px;
+  font-size: 14px;
+  padding-top: 3px;
+}
+.form .container1 .col2 .oj .Input {
+  margin-top: 9px;
+  width: 278px;
+}
+.form .container1 .col3 {
+  display: flex;
+  flex-flow: column;
+}
+.form .container1 .col3 b {
+  margin-bottom: 26px;
+  font-size: 14px;
+}
+.form .container1 .col3 i {
+  padding-left: 15px;
+  font-size: 11px;
+  margin-bottom: 22px;
+}
+.form .container1 .col3 span {
+  font-size: 11px;
+  padding-left: 15px;
+  margin-bottom: 18px;
+}
+.form .container2 {
+  display: grid;
+  grid-template-columns: 182px 573px auto;
+  margin-left: 45px;
+  margin-right: 180px;
+  border-bottom: white solid 1px;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+.form .container2 .col1 {
+  display: flex;
+  flex-flow: column;
+}
+.form .container2 .col1 h2 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.form .container2 .col1 i, .form .container2 .col1 a {
+  font-size: 14px;
+  margin-bottom: 23px;
+}
+.form .container2 .col2 {
+  display: flex;
+  flex-flow: column;
+  padding-top: 40px;
+  width: 573px;
+}
+.form .container2 .col2 input, .form .container2 .col2 select {
+  color: white;
+  font-size: 15px;
+  height: 25px;
+  margin-bottom: 15px;
+  background-color: var(--color);
+  border: white solid 1px;
+  padding-left: 5px;
+}
+.form .container2 .col2 .button {
+  text-align: right;
+  margin-top: 10px;
+}
+.form .container2 .col2 .button input {
+  background-color: lightblue;
+  font-size: 14px;
+  width: 125px;
+  height: 30px;
+  text-align: center;
+  color: var(--color1);
+}
+.form .container2 .col3 {
+  display: flex;
+  flex-flow: column;
+  padding-top: 45px;
+}
+.form .container2 .col3 b {
+  margin-bottom: 26px;
+  font-size: 14px;
+}
+.form .container2 .col3 i {
+  padding-left: 15px;
+  font-size: 11px;
+  margin-bottom: 22px;
+  margin-top: 3px;
+}
+.form .container2 .col3 span {
+  font-size: 11px;
+  padding-left: 15px;
+  margin-bottom: 10px;
+}
+.form .container2 .col3 a {
+  font-size: 14px;
+}
+
+.white_space {
+  display: flex;
+  flex-flow: column;
+  margin-left: 45px;
+  margin-bottom: 20px;
+}
+.white_space p {
+  padding-top: 10px;
+  font-size: 19px;
+  padding-bottom: 20px;
+}
+.white_space a {
+  font-size: 14px;
+  color: blue;
+}
+
+.lastDiv {
+  background-color: var(--color1);
+  height: 82px;
+  flex: 1;
+}
+.lastDiv .Canada {
+  border-bottom: white solid 1px;
+  padding: 10px 45px;
+}
+.lastDiv .end {
+  padding-top: 10px;
+  margin-left: 45px;
+}
+.lastDiv .end a {
+  margin-right: 20px;
+}
+
+@media (max-width: 1300px) {
+  .form .container1 {
+    margin-right: 0px;
+    grid-template-columns: 182px auto;
+  }
+  .form .container1 .col3 {
+    display: none;
+  }
+  .form .container2 {
+    margin-right: 0px;
+    grid-template-columns: 182px auto;
+  }
+  .form .container2 .col3 {
+    display: none;
+  }
+}
+a:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=advance.css.map */
